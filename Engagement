@@ -1,0 +1,16 @@
+Text
+------------------------------------------------------------------------
+
+sudo tcpdump -i ens5 icmp
+
+Shows only ICMP traffic, like ping requests/replies.
+Useful for troubleshooting connectivity or network reachability.
+
+------------------------------------------------------------------------
+
+sudo tcpdump -i ens5 tcp
+
+Shows only TCP traffic (web browsing, SSH, HTTP/HTTPS).
+Useful for focusing on connection-oriented protocols instead of everything.
+
+------------------------------------------------------------------------
