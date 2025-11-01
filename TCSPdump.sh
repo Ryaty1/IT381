@@ -30,3 +30,6 @@ route -n get default #Macos - Find the default interface, this will change the c
 
 # TCPdump to monitor DHCP
 sudo tcpdump -i en0 port 67 or port 68 -e -n -vv
+
+
+

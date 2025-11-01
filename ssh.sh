@@ -1,0 +1,1 @@
+ssh -i '/Users/kimchhayheng/Desktop/Spring 2025/IT-381/IT381.pem' ec2-user@13.221.70.162
