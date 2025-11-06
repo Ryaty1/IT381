@@ -383,7 +383,7 @@ body {
 }
 @media print {
   /* Keep only useful content */
-  .site-header, .nav, .sidebar, .site-footer {
+  .site-header, .nav, .sidebar, .site-footer .resource-links{
     display: none;
   }
 
