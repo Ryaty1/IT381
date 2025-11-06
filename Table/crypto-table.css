@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CSS File</title>
-</head>
-<body>
-<style>
+
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -387,7 +381,35 @@ body {
         font-size: 0.75rem;
     }
 }
-</style>
-</body>
-</html>
-url(../../../../../logo.ico) url(../../../../../logo.png)
+@media print {
+  /* Keep only useful content */
+  .site-header, .nav, .sidebar, .site-footer {
+    display: none;
+  }
+
+  .main-content {
+    box-shadow: none;
+    border: none;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .crypto-table {
+    border: 1px solid black;
+  }
+
+  .crypto-table th, .crypto-table td {
+    border: 1px solid black;
+    padding: 6px;
+  }
+
+  caption {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+}
